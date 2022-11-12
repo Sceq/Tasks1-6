@@ -31,5 +31,18 @@ public class Main {
 
 
         cat.feed();
+
+
+        System.out.println("\n         Task 2     \n");
+
+        Car c1 = new Car("Caddy", "Volkswagen", 2004, 10000.0);
+        Car c2 = new Car("Octavia", "Skoda", 2007, 15000.0);
+
+        Human filip = new Human("Filip", "Kaniecki");
+
+        filip.setCar(c1);
+        System.out.print("Samochód, model: "+ c1.model + " należy do: "+ filip.firstName +" "+ filip.lastName);
     }
+
+
 }
