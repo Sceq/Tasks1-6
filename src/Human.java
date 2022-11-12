@@ -1,2 +1,3 @@
-package PACKAGE_NAME;public class Human {
+public class Human {
+    Animal pet;
 }
