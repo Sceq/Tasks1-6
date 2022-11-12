@@ -1,7 +1,9 @@
-import devices.Car;
-import devices.Phone;
+package com.company;
+import com.company.devices.Car;
+import com.company.devices.Phone;
 
-public class Human{
+public class Human extends com.company.Animal {
+
 
     private static final Double DEFAULT_SALARY = 3500.0;
     private static final String HUMAN_SPECIES = "homo sapiens";
@@ -10,12 +12,13 @@ public class Human{
     String firstName;
     String lastName;
     Phone mobile;
-    Animal pet;
+    com.company.Animal pet;
     private String car;
     private Double salary;
 
-
+    //konstruktory
     Human(String firstName, String lastName) {
+        super(HUMAN_SPECIES);
         this.firstName = firstName;
         this.lastName = lastName;
         this.salary = DEFAULT_SALARY;
@@ -73,4 +76,3 @@ public class Human{
         return "Imię: " + firstName + " Nazwisko: " + lastName + " Nr telefonu: " + mobile + " Zwierzę: " + pet + " Samochód:( " + car + ") Pensja: " + salary;
     }
 }
-
