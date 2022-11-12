@@ -1,4 +1,7 @@
-public class Human {
+import devices.Car;
+import devices.Phone;
+
+public class Human{
 
     private static final Double DEFAULT_SALARY = 3500.0;
     private static final String HUMAN_SPECIES = "homo sapiens";

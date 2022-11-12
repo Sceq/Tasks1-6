@@ -1,3 +1,5 @@
+import devices.Car;
+
 public class Main {
     public static void main(String[] args) {
 
@@ -41,7 +43,7 @@ public class Main {
         Human filip = new Human("Filip", "Kaniecki");
 
         filip.setCar(c1);
-        System.out.print("Samochód, model: "+ c1.model + " należy do: "+ filip.firstName +" "+ filip.lastName);
+        System.out.print("Samochód Caddy Volkswagen należy do: "+ filip.firstName +" "+ filip.lastName);
     }
 
 
